@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_multiple_choice_short_answers",
+  "info": {
+    "displayName": "Short answer"
+  },
+  "options": {},
+  "attributes": {
+    "type": {
+      "type": "boolean"
+    }
+  }
+}

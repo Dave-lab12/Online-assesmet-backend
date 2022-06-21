@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_shotanswer_short_answers",
+  "info": {
+    "displayName": "ShortAnswer"
+  },
+  "options": {},
+  "attributes": {
+    "isShortAnswer": {
+      "type": "boolean"
+    }
+  }
+}

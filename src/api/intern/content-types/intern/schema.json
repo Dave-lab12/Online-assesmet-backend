@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "interns",
+  "info": {
+    "singularName": "intern",
+    "pluralName": "interns",
+    "displayName": "intern",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Email": {
+      "type": "email"
+    },
+    "Name": {
+      "type": "string"
+    },
+    "answers": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::answer.answer",
+      "mappedBy": "intern"
+    }
+  }
+}

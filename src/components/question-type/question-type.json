@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_question_type_question_types",
+  "info": {
+    "displayName": "Question Type",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "isMultiple": {
+      "type": "component",
+      "repeatable": true,
+      "component": "multiple-choice.type"
+    },
+    "typeOfQuestion": {
+      "type": "enumeration",
+      "enum": [
+        "isTrueFalse",
+        "isShortAnswer",
+        "isMultipleChoice"
+      ]
+    }
+  }
+}

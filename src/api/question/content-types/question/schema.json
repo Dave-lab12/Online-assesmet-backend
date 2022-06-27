@@ -18,23 +18,16 @@
     "Description": {
       "type": "richtext"
     },
-    "MultipleChoice": {
-      "displayName": "Type",
-      "type": "component",
-      "repeatable": true,
-      "component": "multiple-choice.type"
-    },
-    "isTrueFalse": {
-      "type": "boolean"
-    },
-    "isShotrAnswer": {
-      "type": "boolean"
-    },
     "answers": {
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::answer.answer",
       "mappedBy": "question"
+    },
+    "QuestionType": {
+      "type": "component",
+      "repeatable": true,
+      "component": "question-type.question-type"
     }
   }
 }

@@ -13,7 +13,9 @@
   "pluginOptions": {},
   "attributes": {
     "Email": {
-      "type": "email"
+      "type": "email",
+      "unique": true,
+      "required": true
     },
     "Name": {
       "type": "string"

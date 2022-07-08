@@ -31,6 +31,12 @@
     },
     "timeToFinish": {
       "type": "time"
+    },
+    "question_answer": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::question-answer.question-answer",
+      "inversedBy": "questions"
     }
   }
 }

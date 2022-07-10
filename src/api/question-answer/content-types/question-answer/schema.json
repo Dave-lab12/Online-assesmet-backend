@@ -12,14 +12,14 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "answer": {
-      "type": "string"
-    },
     "questions": {
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::question.question",
       "mappedBy": "question_answer"
+    },
+    "answer": {
+      "type": "string"
     }
   }
 }

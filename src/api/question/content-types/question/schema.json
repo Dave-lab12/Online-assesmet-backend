@@ -37,6 +37,12 @@
       "relation": "manyToOne",
       "target": "api::question-answer.question-answer",
       "inversedBy": "questions"
+    },
+    "interns_analytic": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::interns-analytics.interns-analytics",
+      "inversedBy": "questions"
     }
   }
 }

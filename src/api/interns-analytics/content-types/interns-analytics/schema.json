@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "intern_analytics",
+  "info": {
+    "singularName": "interns-analytics",
+    "pluralName": "intern-analytics",
+    "displayName": "internsAnalytics"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "switchedTabs": {
+      "type": "string"
+    },
+    "copiedTheTitle": {
+      "type": "string"
+    },
+    "copiedTheAnswer": {
+      "type": "text"
+    },
+    "interns": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::intern.intern",
+      "mappedBy": "interns_analytic"
+    },
+    "questions": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::question.question",
+      "mappedBy": "interns_analytic"
+    }
+  }
+}

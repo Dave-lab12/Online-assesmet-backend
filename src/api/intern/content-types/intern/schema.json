@@ -25,12 +25,6 @@
       "relation": "oneToMany",
       "target": "api::answer.answer",
       "mappedBy": "intern"
-    },
-    "interns_analytic": {
-      "type": "relation",
-      "relation": "manyToOne",
-      "target": "api::interns-analytics.interns-analytics",
-      "inversedBy": "interns"
     }
   }
 }

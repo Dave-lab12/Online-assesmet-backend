@@ -26,6 +26,15 @@
       "relation": "manyToOne",
       "target": "api::intern.intern",
       "inversedBy": "answers"
+    },
+    "copiedTitle": {
+      "type": "boolean"
+    },
+    "pastedAnswer": {
+      "type": "boolean"
+    },
+    "countSwitchedTabs": {
+      "type": "integer"
     }
   }
 }

@@ -25,6 +25,12 @@
       "relation": "oneToMany",
       "target": "api::answer.answer",
       "mappedBy": "intern"
+    },
+    "osType": {
+      "type": "string"
+    },
+    "browser": {
+      "type": "string"
     }
   }
 }

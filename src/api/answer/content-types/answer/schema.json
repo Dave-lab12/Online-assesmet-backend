@@ -35,6 +35,9 @@
     },
     "countSwitchedTabs": {
       "type": "integer"
+    },
+    "timeItTook": {
+      "type": "string"
     }
   }
 }

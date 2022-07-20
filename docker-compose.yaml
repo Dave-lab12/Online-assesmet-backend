@@ -1,0 +1,25 @@
+version: '3'
+
+services:
+
+  strapi:
+    container_name: strapi_icog
+    build: .
+    restart: always
+    volumes:
+      - ./:/srv/app:ro
+    env_file:
+      - strapi.env
+    ports:
+      - "8030:1337"
+    depends_on:
+      - postgres
+
+  postgres:
+    image: postgres
+    env_file:
+      - postgres.env
+
+    
+
+    
